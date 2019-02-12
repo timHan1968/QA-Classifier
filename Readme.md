@@ -8,8 +8,13 @@ Original link: https://github.coecis.cornell.edu/xh87/NLP-a4
 An sub-routine for a Question Answering system which classfies whether the answer to a given question can be extracted from a given text. 
 
 Implemented two versions for comparison:
-1. A simple rule-based Baseline model
-2. A final feature-based ML model
+1. A Baseline model using hand-written rules
+2. A feature-based logistic regression model using ML 
+
+Package Dependency:
+1. Numpy
+2. Spacy
+3. nltk
 
 -----------------------------------------------------------------------------------------------------
 **Baseline Model:**
